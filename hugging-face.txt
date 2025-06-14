@@ -1,9 +1,22 @@
 //--------------------------------------------------------------------------------
-//[1]
+//[1] GeForce RTX 3070 Laptop
 
+- GPU Computer Capability
+  https://developer.nvidia.com/cuda-gpus
+  8.6  GeForce RTX 3070
+
+  https://www.techpowerup.com/gpu-specs/geforce-rtx-3070.c3674
+  5888 Cores, 8 GB
+
+- NVIDIA Driver Downloads
+  https://www.nvidia.com/ko-kr/geforce/drivers/
+
+- Pytorch
+  https://pytorch.org/get-started/locally
+  Stable 2.7.1 : CUDA 12.8
 
 //--------------------------------------------------------------------------------
-//[2]
+//[2] 
 
 
 //--------------------------------------------------------------------------------
