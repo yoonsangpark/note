@@ -15,8 +15,19 @@
   https://pytorch.org/get-started/locally
   Stable 2.7.1 : CUDA 12.8
 
+- Windows : Windows 11 Pro
+
 //--------------------------------------------------------------------------------
-//[2] 
+//[2] Install
+
+a. CUDA : cuda_12.9.0_576.02_windows.exe
+  https://developer.nvidia.com/cuda-toolkit-archive
+  CUDA Toolkit 12.9.0 (May 2025), Versioned Online Documentation
+
+b. cdDNN
+  https://developer.nvidia.com/rdp/cudnn-archive
+
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9
 
 
 //--------------------------------------------------------------------------------
