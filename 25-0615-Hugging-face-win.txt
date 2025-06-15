@@ -56,12 +56,19 @@ Sun Jun 15 14:40:58 2025
 a. CUDA : cuda_12.8.0_571.96_windows.exe
   https://developer.nvidia.com/cuda-toolkit-archive
  
-b. cdDNN
+b. cdDNN : cudnn-windows-x86_64-8.9.7.29_cuda12-archive.zip
   https://developer.nvidia.com/rdp/cudnn-archive
 
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9
+  Copy files ...
+  From : C:\Users\yoonsangpark\Downloads\cudnn-windows-x86_64-8.9.7.29_cuda12-archive
+  To : C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8
 
-c. PyTorch 2.7.1
+c. set PATH
+setx path "%PATH;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin"
+setx path "%PATH;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\extras\CUPTI\lib64"
+setx path "%PATH;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"
+
+d. PyTorch 2.7.1
   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
   https://pytorch.org/get-started/locally/
 
