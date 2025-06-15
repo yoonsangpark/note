@@ -53,17 +53,16 @@ Sun Jun 15 14:40:58 2025
 //--------------------------------------------------------------------------------
 //[2] Install
 
-a. CUDA : cuda_12.9.0_576.02_windows.exe
+a. CUDA : cuda_12.8.0_571.96_windows.exe
   https://developer.nvidia.com/cuda-toolkit-archive
-  CUDA Toolkit 12.9.0 (May 2025), Versioned Online Documentation
-
+ 
 b. cdDNN
   https://developer.nvidia.com/rdp/cudnn-archive
 
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9
 
-c. Pytorch
-  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+c. PyTorch 2.7.1
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
   https://pytorch.org/get-started/locally/
 
 
