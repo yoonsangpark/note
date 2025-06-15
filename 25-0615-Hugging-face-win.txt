@@ -72,6 +72,47 @@ d. PyTorch 2.7.1
   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
   https://pytorch.org/get-started/locally/
 
+(base) C:\Users\yoonsangpark>pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://download.pytorch.org/whl/cu128
+Requirement already satisfied: torch in c:\users\yoonsangpark\appdata\roaming\python\python39\site-packages (2.7.0)
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu128/torchvision-0.22.1%2Bcu128-cp39-cp39-win_amd64.whl (7.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.6/7.6 MB 2.9 MB/s eta 0:00:00
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu128/torchaudio-2.7.1%2Bcu128-cp39-cp39-win_amd64.whl (4.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 3.2 MB/s eta 0:00:00
+Requirement already satisfied: networkx in c:\programdata\anaconda3\lib\site-packages (from torch) (2.8.4)
+Requirement already satisfied: fsspec in c:\users\yoonsangpark\appdata\roaming\python\python39\site-packages (from torch) (2025.3.2)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\yoonsangpark\appdata\roaming\python\python39\site-packages (from torch) (4.13.2)
+Requirement already satisfied: jinja2 in c:\programdata\anaconda3\lib\site-packages (from torch) (2.11.3)
+Requirement already satisfied: filelock in c:\programdata\anaconda3\lib\site-packages (from torch) (3.6.0)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\yoonsangpark\appdata\roaming\python\python39\site-packages (from torch) (1.14.0)
+Requirement already satisfied: numpy in c:\programdata\anaconda3\lib\site-packages (from torchvision) (1.21.5)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\programdata\anaconda3\lib\site-packages (from torchvision) (9.2.0)
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cu128/torch-2.7.1%2Bcu128-cp39-cp39-win_amd64.whl (3273.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 GB ? eta 0:00:00
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\programdata\anaconda3\lib\site-packages (from sympy>=1.13.3->torch) (1.2.1)
+Requirement already satisfied: MarkupSafe>=0.23 in c:\programdata\anaconda3\lib\site-packages (from jinja2->torch) (2.0.1)
+Installing collected packages: torch, torchvision, torchaudio
+  Attempting uninstall: torch
+    Found existing installation: torch 2.7.0
+    Uninstalling torch-2.7.0:
+      Successfully uninstalled torch-2.7.0
+  WARNING: The scripts torchfrtrace.exe and torchrun.exe are installed in 'C:\Users\yoonsangpark\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed torch-2.7.1+cu128 torchaudio-2.7.1+cu128 torchvision-0.22.1+cu128
+WARNING: There was an error checking the latest version of pip.
+
+(base) C:\Users\yoonsangpark>
+
+
+>>> import torch
+>>> print(torch.__version__)
+2.7.1+cu128
+>>> print(torch.cuda.is_available())
+True
 
 //--------------------------------------------------------------------------------
 //[3]
