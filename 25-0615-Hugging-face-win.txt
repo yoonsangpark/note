@@ -11,6 +11,39 @@
 - NVIDIA Driver Downloads
   https://www.nvidia.com/ko-kr/geforce/drivers/
 
+(base) C:\>nvidia-smi
+Sun Jun 15 14:40:58 2025
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 516.01       Driver Version: 516.01       CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name            TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ... WDDM  | 00000000:01:00.0 Off |                  N/A |
+| N/A   59C    P8    13W /  N/A |    187MiB /  8192MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A      1700    C+G   ...296.83\msedgewebview2.exe    N/A      |
+|    0   N/A  N/A      3376    C+G   ...n1h2txyewy\SearchHost.exe    N/A      |
+|    0   N/A  N/A      4316    C+G   ...296.68\msedgewebview2.exe    N/A      |
+|    0   N/A  N/A     12188    C+G   ...8bbwe\Notepad\Notepad.exe    N/A      |
+|    0   N/A  N/A     12196    C+G   ...logioptionsplus_agent.exe    N/A      |
+|    0   N/A  N/A     14852    C+G   ...e\PhoneExperienceHost.exe    N/A      |
+|    0   N/A  N/A     14948    C+G   ...artMenuExperienceHost.exe    N/A      |
+|    0   N/A  N/A     17636    C+G   ...2txyewy\TextInputHost.exe    N/A      |
+|    0   N/A  N/A     20312    C+G   ...8bbwe\WindowsTerminal.exe    N/A      |
+|    0   N/A  N/A     21076    C+G   ...296.68\msedgewebview2.exe    N/A      |
+|    0   N/A  N/A     21268    C+G   ...oft OneDrive\OneDrive.exe    N/A      |
++-----------------------------------------------------------------------------+
+
+
 - Pytorch
   https://pytorch.org/get-started/locally
   Stable 2.7.1 : CUDA 12.8
@@ -28,6 +61,10 @@ b. cdDNN
   https://developer.nvidia.com/rdp/cudnn-archive
 
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9
+
+c. Pytorch
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  https://pytorch.org/get-started/locally/
 
 
 //--------------------------------------------------------------------------------
