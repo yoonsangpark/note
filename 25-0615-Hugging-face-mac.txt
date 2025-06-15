@@ -93,6 +93,17 @@ yoonsangpark@jupiterui-MacBookAir ~ %
 //[3]
 
 
+>>> import torch
+
+>>> print(torch.__version__)
+2.7.1
+
+>>> print(torch.backends.mps.is_built())
+True
+
+>>> print(torch.backends.mps.is_available())
+True
+
 //--------------------------------------------------------------------------------
 //[4]
 
