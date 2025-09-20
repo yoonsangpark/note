@@ -1,0 +1,15 @@
+1. WEB1-HTML & Internet
+https://opentutorials.org/course/3084
+https://www.youtube.com/watch?v=tZooW6PritE
+
+2. Database
+https://opentutorials.org/course/3162
+https://www.youtube.com/watch?v=-VRfO2hlf54
+
+MySQL
+https://opentutorials.org/course/3161
+https://www.youtube.com/watch?v=h_XDmyz--0w
+
+3. Django
+https://opentutorials.org/course/4886
+https://www.youtube.com/watch?v=pbKhn2ten9I
